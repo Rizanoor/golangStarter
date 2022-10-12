@@ -1,24 +1,33 @@
 package main
 
-import (
-	"fmt"
-	"hello/calculation"	
-)
+import "fmt"
 
 func main()  {
-	fmt.Println("hallo world")
+	/** 
+	age := 20
 
-	result := calculation.Add(9, 9)
+		if age > 10 {
+			fmt.Println("boleh main game")
+		}else {
+			fmt.Println("tidak boleh main game")
+		}
+	*/
 
-	fmt.Println(result)
+	score := 65
+	var grade string
+	
+		if score <= 50 {
+			grade = "E"
+		} else if score <= 60{
+			grade = "D"
+		} else if score < 70 {
+			grade = "C"
+		}else {
+			grade = "NULL"
+		}
+
+		fmt.Println(grade)
+
+
 
 }
-
-/** 
-	1. import : bisa digunakan kalau kita ingin menggunakan kode lain 
-	yang berada di package yang berbeda 	
-
-	2. func main : adalah method khusus yang ada di package main yang akan dijalankan
-	ketika kita ngerun package executable
-*/
-	
