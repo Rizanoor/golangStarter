@@ -13,3 +13,12 @@ func main()  {
 	fmt.Println(result)
 
 }
+
+/** 
+	1. import : bisa digunakan kalau kita ingin menggunakan kode lain 
+	yang berada di package yang berbeda 	
+
+	2. func main : adalah method khusus yang ada di package main yang akan dijalankan
+	ketika kita ngerun package executable
+*/
+	
